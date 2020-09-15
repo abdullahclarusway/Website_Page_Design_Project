@@ -1,0 +1,24 @@
+.section__hero{
+    background-image: url(./images/showcase.jpg);
+    height: 50%;
+    padding: 1px;
+    
+
+    &--head{
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 83px;
+        color: #fff;
+        padding: 1px;
+        margin: 110px auto 30px;
+        text-align: center;
+    }
+
+    &--para{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+        text-align: center;
+    }
+}
