@@ -1,0 +1,21 @@
+.footer {
+    // position: relative;
+    // bottom: 0;
+    // left: 0;
+    // margin: 1px auto;
+    height: 140px;
+    // text-align: center;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #000;
+    background-color: #FFFAF0;
+    border-top: 3px solid $secondarycolor;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // &__container {
+    //     margin: 0 auto;
+    // }
+}
