@@ -1,180 +1,96 @@
-.section{
-    &__hero{
-    background-image: url(./images/showcase.jpg);
-    height: 50%;
-    padding: 1px;
-    
-
-    &--head{
-        font-weight: 700;
-        font-size: 55px;
-        line-height: 83px;
-        color: #fff;
+.section {
+    &__hero {
+        background-image: url(./images/showcase.jpg);
+        height: 52%;
         padding: 1px;
-        margin: 110px auto 30px;
-        text-align: center;
-    }
-
-    &--para{
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 30px;
-        color: #fff;
-        text-align: center;
-    }
-}
-
-&__newsletter {
-    display: flex;
-    justify-content: space-around;
-    height: 100px;
-    font-size: 15px;
-    line-height: 23px;
-    font-weight: 400;
-    padding: 10px;
-    color: #fff;
-    background-color: #35424A;
-    &--subscribe {
-        margin: auto;
-        font-size: 23px;
-        line-height: 34px;
-        font-weight: 700;
-    }
-    &--email {
-        margin: auto;
-        align-items: center;
-        &-input {
-            width: 260px;
-            height: 40px;
+        &--head {
+            font-weight: 700;
+            font-size: 55px;
+            line-height: 83px;
+            color: #fff;
+            // padding: 1px;
+            margin: 7% auto 2%;
+            text-align: center;
         }
-        &-button {
-            width: 100px;
-            height: 40px;
-            background-color: #A9508B;
-            color: white;
-            border: none;
+        &--para {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+            margin: 0 10%;
         }
     }
-}
-&__logo {
-    margin: 10px;
-    display: flex;
-    // width: 350;
-    // height: auto;
-    justify-content: center;
-    align-content: center;
-    // border: 2px solid red;
-    
-    & div {
-        // justify-content: center;
-        // align-content: center;
-        text-align: center;
-        margin: 30px 5px;
-        // border: 2px solid red;
-        width: 370px;
-        height: 230px;
-        // display: flex;
-        // flex-direction: column;
-    }
-    & img {
-        width: 100px;
-        height: 100px;
-        margin: 0;
-    }
-    & h3 {
-        font-size: 18px;
-        line-height: 26px;
-        font-weight: 700;
-        margin: 25px;
-        color: #000;
-        
-    }
-    & p {
+    &__newsletter {
+        display: flex;
+        justify-content: space-around;
+        height: 10%;
         font-size: 15px;
         line-height: 23px;
         font-weight: 400;
-        color: #000;
-    }
-}
-}
-
-
-
-// About.html dosyası style yapılmıstır
-
-.section__main{
-    display: flex;
-    margin: 10px 125px;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 23px;
-    align-items: flex-start;
-    &--about{
-        text-align: justify;
-        margin-right: 55px;
-
-        & :nth-child(3){
-            background-color: #35424A;
-            color: #fff;
-            padding: 10px;
-
-        }
-    }
-
-    &--what{
-        background-color: #35424A;
-            color: #fff;
-            padding: 10px;
-            
-    }
-}
-// Service.html dosyası için hazırlandı.
-.section__service{
-    display: flex;
-    box-sizing: border-box;
-    align-items: flex-start;
-    &--left{
-        margin: 0 3% 2% 10%;
-        width: 100%;
-        & div{
-            width: 100%;
-            height: auto;
-            margin-bottom: 5px;
-            background-color: #E6E6E6;
-            padding: 20px;
-        }
-    }
-
-    &--right{
-        margin: 20px 140px 0px 50px;
-        padding: 0 10px;
+        padding: 0.8%;
         color: #fff;
-        background-color: $primarycolor;
-        width: 50%;
-        & :nth-child(2){
-            width: 90%;
-            margin: 0 auto;
+        background-color: #35424A;
+        &--subscribe {
+            margin: auto;
+            font-size: 23px;
+            line-height: 34px;
+            font-weight: 700;
         }
-
-        & #button{
-            width: 70px;
-            height: 40px;
-            background-color: #A9508B;
-            color: white;
-            border: none;
-            margin-bottom: 15px;
-
+        &--email {
+            display: flex;
+            margin: auto;
+            align-items: center;
+            &-input {
+                width: 40vh;
+                height: 4vh;
+            }
+            &-button {
+                width: 30%;
+                height: 4.5vh;
+                margin-left: 2%;
+                background-color: #A9508B;
+                color: white;
+                border: none;
+            }
         }
-            & label{
-                font-size: 15px;
-                line-height: 23px;
-                font-weight: 400;
-                font-family: Arial, Helvetica, sans-serif;
-            }    
-        
-        
     }
-
-
-
+    &__logo {
+        margin: 10px;
+        display: flex;
+        // width: 350;
+        // height: auto;
+        justify-content: center;
+        align-content: center;
+        // border: 2px solid red;
+        & div {
+            // justify-content: center;
+            // align-content: center;
+            text-align: center;
+            margin: 30px 5px;
+            // border: 2px solid red;
+            width: 370px;
+            height: 230px;
+            // display: flex;
+            // flex-direction: column;
+        }
+        & img {
+            width: 6.5vw;
+            height: 12vh;
+            margin: 0;
+        }
+        & h3 {
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 700;
+            margin: 5%;
+            color: #000;
+        }
+        & p {
+            font-size: 15px;
+            line-height: 23px;
+            font-weight: 400;
+            color: #000;
+        }
+    }
 }

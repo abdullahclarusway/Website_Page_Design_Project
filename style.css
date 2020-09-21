@@ -356,7 +356,8 @@ html, body {
   box-sizing: border-box;
 }
 .header__left {
-  margin-left: 130px;
+  white-space: nowrap;
+  margin-left: 9%;
 }
 .header__left p {
   color: white;
@@ -368,14 +369,14 @@ html, body {
   color: #A9508B;
 }
 .header__right {
-  margin-right: 130px;
+  margin-right: 15%;
 }
 .header__right--navbar {
   display: flex;
   list-style-type: none;
 }
 .header__right--navbar li {
-  padding-right: 36px;
+  padding-right: 20%;
 }
 .header__right--navbar li a {
   text-decoration: none;
@@ -393,21 +394,10 @@ html, body {
   line-height: 24px;
   color: #ccc;
 }
-.header__right--navbar-home {
-  color: #A9508B !important;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700 !important;
-  font-size: 16px;
-  line-height: 24px;
-}
-.header__right--navbar-home:hover {
-  color: #ccc !important;
-}
 
 .section__hero {
   background-image: url(./images/showcase.jpg);
-  height: 50%;
+  height: 52%;
   padding: 1px;
 }
 .section__hero--head {
@@ -415,8 +405,7 @@ html, body {
   font-size: 55px;
   line-height: 83px;
   color: #fff;
-  padding: 1px;
-  margin: 110px auto 30px;
+  margin: 7% auto 2%;
   text-align: center;
 }
 .section__hero--para {
@@ -425,15 +414,16 @@ html, body {
   line-height: 30px;
   color: #fff;
   text-align: center;
+  margin: 0 10%;
 }
 .section__newsletter {
   display: flex;
   justify-content: space-around;
-  height: 100px;
+  height: 10%;
   font-size: 15px;
   line-height: 23px;
   font-weight: 400;
-  padding: 10px;
+  padding: 0.8%;
   color: #fff;
   background-color: #35424A;
 }
@@ -444,16 +434,18 @@ html, body {
   font-weight: 700;
 }
 .section__newsletter--email {
+  display: flex;
   margin: auto;
   align-items: center;
 }
 .section__newsletter--email-input {
-  width: 260px;
-  height: 40px;
+  width: 40vh;
+  height: 4vh;
 }
 .section__newsletter--email-button {
-  width: 100px;
-  height: 40px;
+  width: 30%;
+  height: 4.5vh;
+  margin-left: 2%;
   background-color: #A9508B;
   color: white;
   border: none;
@@ -471,15 +463,15 @@ html, body {
   height: 230px;
 }
 .section__logo img {
-  width: 100px;
-  height: 100px;
+  width: 6.5vw;
+  height: 12vh;
   margin: 0;
 }
 .section__logo h3 {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  margin: 25px;
+  margin: 5%;
   color: #000;
 }
 .section__logo p {
@@ -489,72 +481,10 @@ html, body {
   color: #000;
 }
 
-.section__main {
-  display: flex;
-  margin: 10px 125px;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 23px;
-  align-items: flex-start;
-}
-.section__main--about {
-  text-align: justify;
-  margin-right: 55px;
-}
-.section__main--about :nth-child(3) {
-  background-color: #35424A;
-  color: #fff;
-  padding: 10px;
-}
-.section__main--what {
-  background-color: #35424A;
-  color: #fff;
-  padding: 10px;
-}
-
-.section__service {
-  display: flex;
-  box-sizing: border-box;
-  align-items: flex-start;
-}
-.section__service--left {
-  margin: 0 3% 2% 10%;
-  width: 100%;
-}
-.section__service--left div {
-  width: 100%;
-  height: auto;
-  margin-bottom: 5px;
-  background-color: #E6E6E6;
-  padding: 20px;
-}
-.section__service--right {
-  margin: 20px 140px 0px 50px;
-  padding: 0 10px;
-  color: #fff;
-  background-color: #35424A;
-  width: 50%;
-}
-.section__service--right :nth-child(2) {
-  width: 90%;
-  margin: 0 auto;
-}
-.section__service--right #button {
-  width: 70px;
-  height: 40px;
-  background-color: #A9508B;
-  color: white;
-  border: none;
-  margin-bottom: 15px;
-}
-.section__service--right label {
-  font-size: 15px;
-  line-height: 23px;
-  font-weight: 400;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 .footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
   height: 140px;
   font-size: 15px;
   line-height: 23px;
@@ -566,6 +496,11 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
-
-/*# sourceMappingURL=style.css.map */
+.footer div a img {
+  height: 40px;
+  width: 200px;
+  margin: 0 auto;
+  justify-content: center;
+}

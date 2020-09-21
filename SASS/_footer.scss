@@ -1,10 +1,8 @@
 .footer {
-    // position: relative;
-    // bottom: 0;
-    // left: 0;
-    // margin: 1px auto;
+    position: relative;
+    bottom: 0;
+    left: 0;
     height: 140px;
-    // text-align: center;
     font-size: 15px;
     line-height: 23px;
     font-weight: 400;
@@ -15,7 +13,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // &__container {
-    //     margin: 0 auto;
-    // }
+    text-align: center;
+    & div a img {
+        height: 40px;
+        width: 200px;
+        margin: 0 auto;
+        justify-content: center;
+    }
 }

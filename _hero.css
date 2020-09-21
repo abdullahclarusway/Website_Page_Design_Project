@@ -1,0 +1,85 @@
+.section__hero {
+  background-image: url(./images/showcase.jpg);
+  height: 52%;
+  padding: 1px;
+}
+.section__hero--head {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 83px;
+  color: #fff;
+  margin: 7% auto 2%;
+  text-align: center;
+}
+.section__hero--para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 0 10%;
+}
+.section__newsletter {
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  padding: 0.8%;
+  color: #fff;
+  background-color: #35424A;
+}
+.section__newsletter--subscribe {
+  margin: auto;
+  font-size: 23px;
+  line-height: 34px;
+  font-weight: 700;
+}
+.section__newsletter--email {
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+.section__newsletter--email-input {
+  width: 40vh;
+  height: 4vh;
+}
+.section__newsletter--email-button {
+  width: 30%;
+  height: 4.5vh;
+  margin-left: 2%;
+  background-color: #A9508B;
+  color: white;
+  border: none;
+}
+.section__logo {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.section__logo div {
+  text-align: center;
+  margin: 30px 5px;
+  width: 370px;
+  height: 230px;
+}
+.section__logo img {
+  width: 6.5vw;
+  height: 12vh;
+  margin: 0;
+}
+.section__logo h3 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  margin: 5%;
+  color: #000;
+}
+.section__logo p {
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #000;
+}

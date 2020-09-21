@@ -1,0 +1,35 @@
+.section__main {
+  display: flex;
+  margin: 10px 125px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  align-items: flex-start;
+  height: 60vh;
+}
+.section__main--about {
+  text-align: justify;
+  margin-right: 55px;
+}
+.section__main--about :nth-child(3) {
+  background-color: #35424A;
+  color: #fff;
+  padding: 10px;
+}
+.section__main--what {
+  background-color: #35424A;
+  color: #fff;
+  padding: 10px;
+}
+
+.header__right--navbar-about {
+  color: #A9508B !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header__right--navbar-about:hover {
+  color: #ccc !important;
+}

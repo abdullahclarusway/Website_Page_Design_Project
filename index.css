@@ -1,0 +1,11 @@
+.header__right--navbar-home {
+  color: #A9508B !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-size: 16px;
+  line-height: 24px;
+}
+.header__right--navbar-home:hover {
+  color: #ccc !important;
+}

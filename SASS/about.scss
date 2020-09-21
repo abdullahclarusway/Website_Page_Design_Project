@@ -1,0 +1,40 @@
+$primarycolor: #35424A;
+$secondarycolor: #A9508B;
+// For About.html 
+.section__main {
+    display: flex;
+    margin: 10px 125px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    align-items: flex-start;
+    height: 60vh;
+    &--about {
+        text-align: justify;
+        margin-right: 55px;
+        & :nth-child(3) {
+            background-color: #35424A;
+            color: #fff;
+            padding: 10px;
+        }
+    }
+    &--what {
+        background-color: #35424A;
+        color: #fff;
+        padding: 10px;
+    }
+}
+
+.header__right--navbar {
+    &-about {
+        color: $secondarycolor !important;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700 !important;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &-about:hover {
+        color: #ccc !important;
+    }
+}
