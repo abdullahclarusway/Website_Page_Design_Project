@@ -1,6 +1,6 @@
-## https://lighthouseteam.github.io/web-site-page-design/
+## https://abdullahclarusway.github.io/Website_Page_Design_Project/
 
-# Project-004 : Website Page Design (HC-04)
+# Website Page Design 
 
 ## Description
 Project aims to create website site page.
